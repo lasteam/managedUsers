@@ -39,7 +39,8 @@ ManagedUsers = {
 }
 
 // Do not allow account creation by just anyone
-Accounts.config({forbidClientAccountCreation: true});
+//Accounts.config({forbidClientAccountCreation: true});
+//Neddn't to be blocked.
 
 if(Meteor.isServer) {
 	// Verify that the admin user account exists (should be created on the first run)

@@ -4,7 +4,7 @@
   "homepage": "https://github.com/jzgoda/managedUsers",
   "author": "Jon Zgoda <jon@zgoda.us>",
   "version": "0.2.4",
-  "git": "https://github.com/jzgoda/managedUsers.git",
+  "git": "https://https://github.com/lasteam/managedUsersForPiet.git",
   "packages": {
     "bootstrap-3": {},
     "accounts-ui-bs3-and-blaze": {}

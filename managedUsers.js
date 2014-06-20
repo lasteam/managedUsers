@@ -13,9 +13,10 @@ ManagedUsers = {
 	checkUsername : function(username, userId) {
 		if (!username)
 			throw new Meteor.Error(400, "Username can not be blank.");
-		var usernamePattern = /^[a-z]+$/g;
-		if (!usernamePattern.test(username))
-			throw new Meteor.Error(400, "Username format is incorrect.");
+		//var usernamePattern = /^[a-z]+$/g;
+		//if (!usernamePattern.test(username))
+		//	throw new Meteor.Error(400, "Username format is incorrect.");
+		//Username Format Checking is nnlonger needed.
 		var u = Meteor.users.findOne({
 			username : username
 		});

@@ -117,11 +117,9 @@ if (Meteor.isServer) {
 			Meteor.users.update(userId, {
 				$set : {
 					username : username,
-					profile : {
-						name : name
-					},
 					emails : address,
-					permissions : permissions
+					permissions : permissions,
+					"profile.name" : name,
 				}
 			});
 			return userId;
